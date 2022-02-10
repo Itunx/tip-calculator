@@ -1,0 +1,115 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: blanchedalmond;
+}
+#container{
+    height: 525px;
+    width: 360px;
+    margin: 100px auto;
+    background: #f7f7ff;
+    box-shadow: 0 0 3px rgba(0,0,0,0.1);
+     border-radius:20px;
+     -webkit-border-radius:20px ;
+     -moz-border-radius:20px ;
+}
+h1{
+    background: #1f030c;
+    color: blanchedalmond;
+    margin: 0;
+    padding: 10px 100px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: normal;
+    border-top-left-radius:20px ;
+    border-top-right-radius:20px ;
+}
+p{
+    padding-left: 20px;
+}
+form input[type='text']{
+    width: 90px;
+}
+input{
+    padding-left:20px;
+}
+
+#billamt{
+    font-size: 14px;
+    color: rebeccapurple;
+    background-color: #f7f7ff;
+    width: 60%;
+    padding: 5px 5px 8px 8px;
+}
+#billamt:focus{
+    width: 60px;
+    border: 3px#2980b9;
+    outline: none;
+}
+
+
+#peopleamt{
+    width: 60%;
+    padding: 5px 5px 8px 8px;
+    margin-left: 20px;
+    color: red;
+    background-color: #f7f7ff;
+    font-size: 14px;
+}
+.doolarsign{
+    display:inline;
+}
+#serviceQual{
+padding: 13px 13px 20px 20px;
+margin-left:20px;
+font-size: 25px;
+}
+
+button{
+ text-transform: uppercase;
+ font-weight: bold;
+ display: block;
+ margin: 30px auto;
+ background: #AD133A;
+ border-radius: 5px;
+ width: 200px;
+ height: 50px;
+ font-size: 17px;
+ color: antiquewhite;
+}
+
+#buttton:hoover{
+background:#4c2827;
+border-bottom-color:#111 ;
+}
+button:active{
+    position:relative;
+    top:1px;
+}
+#totaltip{
+    font-size: 30px;
+    margin-top: 5px;
+    text-align: center;
+}
+#totaltip:before{
+    content:'tip amount';
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    text-transform: uppercase;
+}
+#totalTip sup{
+    font-size: 20px;
+    top:-18px;
+}
+
+#totalTip small{
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+}
+@media screen and (max-width:765px) {
+    #container{
+        width: 100%;
+        margin: auto;
+    }
+}
